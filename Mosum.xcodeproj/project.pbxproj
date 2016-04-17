@@ -12,6 +12,8 @@
 		5CBAC2D01CBB783A008D36AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CBAC2CE1CBB783A008D36AD /* Main.storyboard */; };
 		5CBAC2D21CBB783A008D36AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBAC2D11CBB783A008D36AD /* Assets.xcassets */; };
 		5CBAC2D51CBB783A008D36AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CBAC2D31CBB783A008D36AD /* LaunchScreen.storyboard */; };
+		5CBAC2DD1CBCAB0E008D36AD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBAC2DC1CBCAB0D008D36AD /* TableViewCell.swift */; };
+		5CBAC2DF1CBCB640008D36AD /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBAC2DE1CBCB640008D36AD /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5CBAC2D11CBB783A008D36AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CBAC2D41CBB783A008D36AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CBAC2D61CBB783A008D36AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBAC2DC1CBCAB0D008D36AD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5CBAC2DE1CBCB640008D36AD /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5CBAC2D11CBB783A008D36AD /* Assets.xcassets */,
 				5CBAC2D31CBB783A008D36AD /* LaunchScreen.storyboard */,
 				5CBAC2D61CBB783A008D36AD /* Info.plist */,
+				5CBAC2DC1CBCAB0D008D36AD /* TableViewCell.swift */,
+				5CBAC2DE1CBCB640008D36AD /* Day.swift */,
 			);
 			path = Mosum;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CBAC2DD1CBCAB0E008D36AD /* TableViewCell.swift in Sources */,
 				5CBAC2CD1CBB783A008D36AD /* ViewController.swift in Sources */,
+				5CBAC2DF1CBCB640008D36AD /* Day.swift in Sources */,
 				5CBAC2CB1CBB783A008D36AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +258,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Mosum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buffapps.Mosum;
@@ -261,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Mosum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buffapps.Mosum;
@@ -287,6 +297,7 @@
 				5CBAC2DB1CBB783A008D36AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
